@@ -10,7 +10,7 @@ const First = () => {
             that bring ideas to life.</h3>
         
         <div className='btn'>
-        <a href="/assets/AnkurCV.pdf" download>
+        <a href="/assets/AnkurCV.docx" download>
   <button id='resume'>Download Resume</button>
 </a>
 
