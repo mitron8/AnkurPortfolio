@@ -2,9 +2,24 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons'; 
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+
+
 
 
 const Skill = () => {
+  useGSAP(()=>{
+    gsap.from("p",{
+      x:10,
+      opacity:0,
+      stagger:0.6
+
+
+    }
+  )
+
+  })
   return (
     <div className='skill'>
         <div className='tech'>

@@ -1,20 +1,42 @@
+"use client"
 import React from 'react'
 import Nav from './Components/Nav'
 import First from './Components/First'
 import Skill from './Components/Skill'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { ToastContainer, toast, Bounce } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css"
+import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from '@gsap/react';
 
 
 
 const page = () => {
+
+  
+  const notify=()=>{
+    toast('🦄 You Are Downloading My Resume in (docx) Formate', {
+      position: "top-left",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      transition: Bounce,
+    });
+  
+    
+
+  }
   
   
   return (
     <div id='main'>
       <Nav></Nav>
-      <First></First>
+      <First notify={notify}></First>
+      <ToastContainer/>
       <Skill></Skill>
       
       
