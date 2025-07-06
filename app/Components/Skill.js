@@ -11,9 +11,7 @@ import gsap from 'gsap';
 const Skill = () => {
   useGSAP(()=>{
     gsap.from("p",{
-      x:10,
-      opacity:0,
-      stagger:0.6
+     
 
 
     }

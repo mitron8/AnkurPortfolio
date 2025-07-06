@@ -34,8 +34,8 @@ const First = (props) => {
         <a href="/assets/AnkurCV.docx" download>
   <button id='resume' onClick={notify}>Download Resume</button>
 </a>
-
-            <button id='hire'>Hire ME !</button>
+<a href='https://www.linkedin.com/in/ankur-kumar-sah-36b590322/'>
+            <button id='hire'>Hire ME !</button></a>
 
         </div>
         </div>

@@ -9,8 +9,9 @@ const Nav = () => {
             <h4>About</h4>
             <h4>Skill</h4>
             <h4>Projects</h4>
+            <a href='https://www.linkedin.com/in/ankur-kumar-sah-36b590322/'>
             <button>Hire Me</button>
-            
+            </a>
 
         </div>
     </div>

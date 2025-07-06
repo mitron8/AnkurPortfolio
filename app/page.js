@@ -3,6 +3,8 @@ import React from 'react'
 import Nav from './Components/Nav'
 import First from './Components/First'
 import Skill from './Components/Skill'
+import Projects from './Components/Projects'
+import Footer from './Components/Footer'
 import { ToastContainer, toast, Bounce } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css"
 import gsap from 'gsap';
@@ -38,6 +40,8 @@ const page = () => {
       <First notify={notify}></First>
       <ToastContainer/>
       <Skill></Skill>
+      <Projects></Projects>
+      <Footer></Footer>
       
       
     </div>
