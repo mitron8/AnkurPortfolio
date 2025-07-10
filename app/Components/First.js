@@ -31,7 +31,7 @@ const First = (props) => {
             that bring ideas to life.</h3>
         
         <div className='btn'>
-        <a href="/assets/AnkurCV.docx" download>
+        <a href="/assets/AnkurSahCV.pdf" download>
   <button id='resume' onClick={notify}>Download Resume</button>
 </a>
 <a href='https://www.linkedin.com/in/ankur-kumar-sah-36b590322/'>

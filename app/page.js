@@ -17,7 +17,7 @@ const page = () => {
 
   
   const notify=()=>{
-    toast('🦄 You Are Downloading My Resume in (docx) Formate', {
+    toast('🦄 YAAA! You Are Downloading My Resume in (.pdf) Formate', {
       position: "top-left",
       autoClose: 5000,
       hideProgressBar: false,
