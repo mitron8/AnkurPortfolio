@@ -4,6 +4,7 @@ import Nav from './Components/Nav'
 import First from './Components/First'
 import Skill from './Components/Skill'
 import Projects from './Components/Projects'
+import Test from './Components/Test'
 import Footer from './Components/Footer'
 import { ToastContainer, toast, Bounce } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css"
@@ -41,6 +42,7 @@ const page = () => {
       <ToastContainer/>
       <Skill></Skill>
       <Projects></Projects>
+      <Test></Test>
       <Footer></Footer>
       
       

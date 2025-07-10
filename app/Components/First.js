@@ -23,6 +23,11 @@ const First = (props) => {
   })
   const notify=props.notify
   return (
+    <div className='hero'>
+      <video autoPlay loop muted playsInline className="bg-video">
+    <source src="/assets/bgvid.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
     <div id='intro'>
         <div className='con'>
         <h1 className='flow'>Hi, I'm <span className='green'>Ankur Kumar Sah</span> </h1>
@@ -40,6 +45,7 @@ const First = (props) => {
         </div>
         </div>
         <div id='MyImage'></div>
+    </div>
     </div>
 
   )

@@ -1,5 +1,6 @@
 
 import "./globals.css";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
