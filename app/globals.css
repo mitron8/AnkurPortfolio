@@ -267,4 +267,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
+}
+.con{
+  background-color: #00000086;
+  padding: 20px 20px;
+  border-radius: 20px;
 }
