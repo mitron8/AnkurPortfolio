@@ -37,12 +37,15 @@
 }
 
 .review {
-  background-color: rgba(249, 246, 246, 0.205);
+  background-color: rgba(249, 246, 246, 0.4);
   border-radius: 8%;
   height: 300px;
   margin-top: 40px;
   padding: 10px 20px;
-  width: 300px;
+  width: 450px;
+}
+.pro-con p{
+  color: rgb(15, 15, 201);
 }
 
 .rev-text {
@@ -54,7 +57,9 @@
 }
 
 .pro-img {
-  background-color: blanchedalmond;
+  background-image: url(assets/1750799819540.jpg);
+  background-position: center;
+  background-size: cover;
   border-radius: 50%;
   height: 46px;
   width: 46px;

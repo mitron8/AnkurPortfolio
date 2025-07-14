@@ -19,7 +19,7 @@ const Skill = () => {
 
   })
   return (
-    <div className='skill'>
+    <div id='skill'className='skill'>
         <div className='tech'>
             
         </div>
